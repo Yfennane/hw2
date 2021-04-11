@@ -9,19 +9,22 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Welcome to MyMuG</h1>
-    <h2>Create, Style & receive your own mug in less than a day</h2>
-    <ul>
-        <li>Perfect for last minute birthday gifts</li>
-        <li>Long lasting</li>
-        <li>Great value</li>
-       </ul>
-       <p><img src="Mug2.gif"></p>
-       <p>
-        <a href="bestsellers.html">our best sellers</a>.
+    <h1 class = "text-6xl font-bold p-2 text-left">Welcome to MyMuG</h1>
+    <h2 class = "text-4xl font-light p-2 text-left">Create, Style & receive your own mug in less than a day</h2>
+    
+   <div class="md:flex items-center bg-gray-100"> 
+       <div class="w-1/4 p-4"> <img src="mug.gif"></div>
+       <div class="w-1/2 p-4 text-4xl font-thin"> <p class="m-2"> Perfect for last minute birthday gifts </p> <p class="m-2"> long lasting </p> <p class="m-2"> Great value </p></div>
+   </div>
+
+    <div class="p-4"> 
+       <p class="text-4xl font thin text-blue-600 text-left"> Quick links</p>
+        <p class="text-2xl font thin underline p-1 text-blue-600 ">
+        <a href="bestsellers.html">our best sellers</a>
       </p>
-      <p>
-        <a href="ourstory.html">our story</a>.
+      <p class="text-2xl font thin underline p-1 text-blue-600 ">
+        <a href="Ourstory.html">our story</a>
   </p>
+</div>
 </body>
 </html>
